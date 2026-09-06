@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#17243c"/>
+  <rect x="74" y="84" width="70" height="8" rx="4" fill="#8cb4ff"/>
+  <text x="74" y="238" fill="#fff" font-family="Arial, sans-serif" font-size="116" font-weight="700">Bells</text>
+  <text x="78" y="318" fill="#d9e3f6" font-family="Arial, sans-serif" font-size="38">Plan together. Move work forward.</text>
+  <line x1="78" y1="396" x2="1122" y2="396" stroke="#3b4a66" stroke-width="2"/>
+  <text x="78" y="474" fill="#a9c6ff" font-family="Arial, sans-serif" font-size="26">Collaborative planning</text>
+  <text x="467" y="474" fill="#a9c6ff" font-family="Arial, sans-serif" font-size="26">Task management</text>
+  <text x="847" y="474" fill="#a9c6ff" font-family="Arial, sans-serif" font-size="26">Team progress</text>
+  <text x="78" y="567" fill="#a0aec7" font-family="Arial, sans-serif" font-size="22">bellsapp.site</text>
+</svg>

@@ -1,0 +1,10 @@
+.git/
+.env*
+.vercel/
+.lovable/
+supabase/
+work/
+outputs/
+node_modules/
+dist/
+README.md

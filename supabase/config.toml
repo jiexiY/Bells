@@ -1,0 +1,15 @@
+project_id = "bells-local"
+
+# Each function validates the user's access token with Supabase Auth.
+# The gateway also verifies the signed-in user token.
+[functions.join-project]
+verify_jwt = true
+
+[functions.respond-invitation]
+verify_jwt = true
+
+[functions.send-invite-email]
+verify_jwt = true
+
+[functions.delete-workspace]
+verify_jwt = true

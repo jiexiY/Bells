@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local credentials, deployment metadata, and working artifacts
+.env*
+!.env.example
+.vercel/
+work/
+outputs/
+
+# Local backend tooling and browser automation
+supabase/.temp/
+.playwright-cli/
+playwright-report/
+test-results/
+.lovable/
+*.tsbuildinfo
