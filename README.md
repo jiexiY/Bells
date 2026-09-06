@@ -44,7 +44,7 @@ Project and task access is scoped by active workplace membership, role, and assi
 
 [![Watch the Bells role workflow](docs/media/bells-workflow-poster.png)](https://bellsapp.site/#walkthrough)
 
-[Watch in the website player](https://bellsapp.site/#walkthrough) · [Open the MP4 directly](https://bellsapp.site/media/bells-workflow-v6.mp4)
+[Watch in the website player](https://bellsapp.site/#walkthrough) · [Open the MP4 directly](https://bellsapp.site/media/bells-workflow-v7.mp4)
 
 The 60-second walkthrough uses the actual application with a fictional sample workplace: one project manager, two team leads, and five contributors. It follows invitations, task assignment, both revision cycles, and completion updates.
 

@@ -15,6 +15,8 @@ The backend checks used a separate local test harness and are not included as ru
 
 ## Public repository checks
 
+The v7 walkthrough corrects the 0:31 contributor-to-review handoff with a 0.9-second morph, synchronized role focus and cursor motion, and character-by-character feedback typing in one consistent review layout. Source checks confirm 28 unique transition frames, a fixed center at (960, 540), and no step larger than one feedback character. Production Chrome playback verified 28 distinct frames during the morph. The 60-second, 1080p export decoded all 1,800 frames; the build, desktop/mobile playback, and all 26 deployed asset comparisons passed. The revised video is served at `/media/bells-workflow-v7.mp4`.
+
 The September 6 video refresh localizes both recorded native upload labels to English, enlarges the top-left icon and wordmark, and adds a 2.8-second yellow-bell animation over a fixed rounded white tile. The bell reaches +35° and −35° at 3.75 cycles per second. Frame checks confirm that it continues moving through the ending and does not overlap the wordmark or CTA. The original captures remain unchanged; the upload labels are editorial video overlays.
 
 The revised export decoded all 1,800 frames at 1920×1080 and 30 fps without errors. The production build passed. Chrome checks passed locally and on bellsapp.site for playback, seeking, English captions, and 1440, 390, and 320 px layouts. Live playback captured 83 frames of visible bell motion across the ending. All 24 deployed assets matched the tested build, and the versioned v6 MP4 supports HTTP 206 byte-range streaming. The approved music and its AIGC metadata are retained.
