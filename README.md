@@ -16,7 +16,7 @@ Bells is a workplace application built around **role-based access control (RBAC)
 
 Work moves through a defined chain: managers set goals, leads assign tasks, contributors submit work, and reviewers approve it or request changes with saved feedback.
 
-[![Bells project manager dashboard with project progress and team performance](public/brand/bells-workspace-preview.png)](https://bellsapp.site/demo)
+[![Bells project manager dashboard with project progress and team performance](docs/media/bells-workspace.png)](https://bellsapp.site/demo)
 
 ## Why Bells
 
