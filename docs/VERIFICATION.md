@@ -15,6 +15,10 @@ The backend checks used a separate local test harness and are not included as ru
 
 ## Public repository checks
 
+The September 6 video refresh localizes both recorded native upload labels to English, enlarges the top-left icon and wordmark, and adds a 2.8-second yellow-bell animation over a fixed rounded white tile. The bell reaches +35° and −35° at 3.75 cycles per second. Frame checks confirm that it continues moving through the ending and does not overlap the wordmark or CTA. The original captures remain unchanged; the upload labels are editorial video overlays.
+
+The revised export decoded all 1,800 frames at 1920×1080 and 30 fps without errors. The production build passed. Chrome checks passed locally and on bellsapp.site for playback, seeking, English captions, and 1440, 390, and 320 px layouts. Live playback captured 83 frames of visible bell motion across the ending. All 24 deployed assets matched the tested build, and the versioned v6 MP4 supports HTTP 206 byte-range streaming. The approved music and its AIGC metadata are retained.
+
 The landing-page walkthrough player was checked locally and in production in Chrome for 60-second 1080p playback, seeking to the ending, 25 English caption cues, and layouts at 1440, 390, and 320 px. It starts paused and defers video loading until playback. All 22 deployed assets matched the tested build; the MP4 serves as `video/mp4` with HTTP 206 range responses, and captions serve as `text/vtt`. The README walkthrough links point directly to `https://bellsapp.site/#walkthrough`; the former GitHub file-viewer destination could not preview the 7.13 MB video.
 
 The light-theme and video update was verified separately: the production build passed, all 19 deployed public assets matched that build, and Chrome checks confirmed the light default with a dark system preference, the manual theme toggle, and the guest workspace at desktop and 390 px mobile widths without horizontal overflow. The landing-page and README previews use the actual light guest dashboard.

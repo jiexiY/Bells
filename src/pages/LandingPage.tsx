@@ -132,17 +132,17 @@ export default function LandingPage() {
             preload="none"
             width="1920"
             height="1080"
-            poster="/media/bells-workflow-poster-v5.png"
+            poster="/media/bells-workflow-poster-v6.png"
             aria-label="Bells 60-second product walkthrough"
             aria-describedby="bells-walkthrough-description"
           >
-            <source src="/media/bells-workflow-v5.mp4" type="video/mp4" />
+            <source src="/media/bells-workflow-v6.mp4" type="video/mp4" />
             <track kind="captions" src="/media/bells-workflow-en.vtt" srcLang="en" label="English" />
-            Your browser does not support this video. <a href="/media/bells-workflow-v5.mp4">Open the walkthrough</a>.
+            Your browser does not support this video. <a href="/media/bells-workflow-v6.mp4">Open the walkthrough</a>.
           </video>
           <div className="bells-walkthrough-caption">
             <span>One manager. Two leads. Five contributors.</span>
-            <a href="/media/bells-workflow-v5.mp4" target="_blank" rel="noopener noreferrer">Open video <ArrowUpRightIcon /></a>
+            <a href="/media/bells-workflow-v6.mp4" target="_blank" rel="noopener noreferrer">Open video <ArrowUpRightIcon /></a>
           </div>
         </section>
 
