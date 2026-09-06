@@ -64,7 +64,7 @@ export function DashboardNav() {
           {/* Header */}
           <div className="p-4 border-b border-border">
             <Link to="/workspace" className="flex items-center gap-2 mb-1">
-              <img src="/brand/bells-icon-transparent.png" alt="" className="h-8 w-8 rounded-lg" />
+              <img src="/brand/bells-icon-rounded.png" alt="" className="h-8 w-8 rounded-lg" />
               <span className="font-bold text-lg">Bells</span>
             </Link>
             <p className="text-[10px] text-muted-foreground leading-tight px-0.5">One workplace. Clear responsibilities.</p>

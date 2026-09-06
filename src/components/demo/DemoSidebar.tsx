@@ -173,7 +173,7 @@ export function DemoSidebar({ view, onViewChange, role, onRoleChange, organizati
               className="mb-1 ml-12 flex items-center gap-2 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring lg:ml-0"
               aria-label="Bells demo dashboard"
             >
-              <img src="/brand/bells-icon-transparent.png" alt="" className="h-8 w-8 rounded-lg" />
+              <img src="/brand/bells-icon-rounded.png" alt="" className="h-8 w-8 rounded-lg" />
               <span className="text-lg font-bold">Bells</span>
             </button>
             <p className="mb-2 ml-12 px-0.5 text-[10px] leading-tight text-muted-foreground lg:ml-0">Team Workspace · Guest Demo</p>

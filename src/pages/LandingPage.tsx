@@ -77,7 +77,7 @@ export default function LandingPage() {
       <a className="bells-landing-skip" href="#main">Skip to content</a>
       <header className="bells-landing-header">
         <Link to="/" className="bells-landing-brand" aria-label="Bells home">
-          <img src="/brand/bells-icon-transparent.png" alt="" width="36" height="36" />
+          <img src="/brand/bells-icon-rounded.png" alt="" width="36" height="36" />
           <span>Bells<span className="bells-landing-brand-dot">.</span></span>
         </Link>
         <nav className="bells-landing-nav" aria-label="Main navigation">

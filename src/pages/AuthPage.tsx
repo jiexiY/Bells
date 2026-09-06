@@ -119,7 +119,7 @@ export default function AuthPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-2 mb-2">
-            <img src="/brand/bells-icon-transparent.png" alt="" className="h-8 w-8 rounded-lg" />
+            <img src="/brand/bells-icon-rounded.png" alt="" className="h-8 w-8 rounded-lg" />
             <h1 className="text-3xl font-bold text-foreground">Bells</h1>
           </div>
           <p className="text-sm text-primary font-medium mb-1">One workspace for planning, tasks, and team progress.</p>
