@@ -80,7 +80,8 @@
 .bells-landing-closing p { font-size: 26px; letter-spacing: -.045em; margin: 0 0 8px; font-weight: 500; }
 .bells-landing-closing span { font-size: 12px; color: #516276; }
 .bells-landing-closing .bells-landing-primary { flex-shrink: 0; }
-.bells-landing-footer { max-width: 1280px; margin: 0 auto; padding: 28px 48px 34px; border-top: 1px solid var(--landing-line); display: flex; justify-content: space-between; align-items: center; font-size: 16px; font-weight: 550; }
+.bells-landing-footer { max-width: 1280px; margin: 0 auto; padding: 28px 48px 34px; border-top: 1px solid var(--landing-line); display: flex; flex-wrap: wrap; gap: 16px 24px; justify-content: space-between; align-items: center; font-size: 16px; font-weight: 550; }
+.bells-landing-copyright { color: #60718a; font-size: 12px; font-weight: 400; line-height: 1.6; }
 .bells-landing-footer-description { font-size: 10px; color: #60718a; font-weight: 400; margin-left: 15px; }
 @media (max-width: 1279px) { .bells-landing-closing { margin-left: 48px; margin-right: 48px; } }
 @media (max-width: 767px) {

@@ -145,3 +145,8 @@ See the [verification notes](docs/VERIFICATION.md) for the scope of testing.
 The SlicedWaves background comes from [React Bits](https://reactbits.dev/backgrounds/sliced-waves); its [license notice](public/licenses/react-bits-LICENSE.md) is included. Other dependencies retain their respective licenses. The walkthrough uses music generated with MiniMax and retains its attribution.
 
 This repository does not currently grant a project-wide open-source license. Third-party license notices continue to apply to their respective components.
+
+## Copyright
+
+Copyright © 2026 Jiexi Yang. All rights reserved.
+This project is publicly available for viewing and portfolio evaluation only.

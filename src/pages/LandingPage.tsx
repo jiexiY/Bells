@@ -192,6 +192,7 @@ export default function LandingPage() {
 
       <footer className="bells-landing-footer">
         <span>Bells<span className="bells-landing-brand-dot">.</span><span className="bells-landing-footer-description"> A clear role. A focused workplace.</span></span>
+        <small className="bells-landing-copyright">Copyright © 2026 Jiexi Yang. All rights reserved.</small>
       </footer>
     </div>
   );
