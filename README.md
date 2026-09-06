@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/brand/bells-icon-borderless.png" alt="Bells icon" width="72" />
+  <img src="public/brand/bells-icon-transparent.png" alt="Bells icon" width="72" />
 </p>
 
 <h1 align="center">Bells</h1>
