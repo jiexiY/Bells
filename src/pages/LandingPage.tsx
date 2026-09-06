@@ -1,6 +1,6 @@
-import { Component, useSyncExternalStore, type ReactNode } from "react";
-import { Link } from "react-router-dom";
-import { ArrowDown, ArrowRight, Check, CircleCheck, Github, Layers3, ShieldCheck } from "lucide-react";
+import { Component, useEffect, useSyncExternalStore, type ReactNode } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { ArrowRight, Check, CircleCheck, Github, Layers3, Play, ShieldCheck } from "lucide-react";
 import SlicedWaves from "@/components/SlicedWaves.jsx";
 import "./LandingPage.css";
 
@@ -72,6 +72,12 @@ const features = [
 ];
 
 export default function LandingPage() {
+  const { hash } = useLocation();
+  useEffect(() => {
+    // The landing page loads lazily, so the GitHub deep link needs its target after mount.
+    if (hash === "#walkthrough") document.getElementById("walkthrough")?.scrollIntoView({ block: "start" });
+  }, [hash]);
+
   return (
     <div className="bells-landing">
       <a className="bells-landing-skip" href="#main">Skip to content</a>
@@ -105,9 +111,38 @@ export default function LandingPage() {
             <p className="bells-landing-intro">Role-based access to the work you’re responsible for.<br className="bells-landing-desktop-break" /> So everyone can focus on their part of the work.</p>
             <div className="bells-landing-actions">
               <Link className="bells-landing-primary" to="/demo">Try the demo <ArrowRight size={18} aria-hidden="true" /></Link>
-              <a className="bells-landing-secondary" href="#workspace">Take a look <ArrowDown size={16} aria-hidden="true" /></a>
+              <a className="bells-landing-secondary" href="#walkthrough">Watch 60 seconds <Play size={16} aria-hidden="true" /></a>
             </div>
             <p className="bells-landing-demo-note"><Check size={13} aria-hidden="true" />No sign-up needed to explore</p>
+          </div>
+        </section>
+
+        <section className="bells-landing-walkthrough" id="walkthrough" aria-labelledby="bells-walkthrough-title">
+          <div className="bells-walkthrough-heading">
+            <div>
+              <p className="bells-landing-eyebrow">60-second walkthrough</p>
+              <h2 id="bells-walkthrough-title">See Bells in action.</h2>
+            </div>
+            <p id="bells-walkthrough-description">Follow the work from assignment to approval, with a clear view for every role.</p>
+          </div>
+          <video
+            className="bells-walkthrough-video"
+            controls
+            playsInline
+            preload="none"
+            width="1920"
+            height="1080"
+            poster="/media/bells-workflow-poster-v5.png"
+            aria-label="Bells 60-second product walkthrough"
+            aria-describedby="bells-walkthrough-description"
+          >
+            <source src="/media/bells-workflow-v5.mp4" type="video/mp4" />
+            <track kind="captions" src="/media/bells-workflow-en.vtt" srcLang="en" label="English" />
+            Your browser does not support this video. <a href="/media/bells-workflow-v5.mp4">Open the walkthrough</a>.
+          </video>
+          <div className="bells-walkthrough-caption">
+            <span>One manager. Two leads. Five contributors.</span>
+            <a href="/media/bells-workflow-v5.mp4" target="_blank" rel="noopener noreferrer">Open video <ArrowUpRightIcon /></a>
           </div>
         </section>
 

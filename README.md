@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://bellsapp.site">Live website</a> ·
   <a href="https://bellsapp.site/demo">Try the demo</a> ·
-  <a href="docs/media/bells-workflow.mp4">60-second walkthrough</a>
+  <a href="https://bellsapp.site/#walkthrough">60-second walkthrough</a>
 </p>
 
 Bells is a workplace application built around **role-based access control (RBAC)**. Project managers, team leads, and contributors access the projects, tasks, and actions permitted by their role and assignments, giving everyone a clear area of responsibility.
@@ -42,7 +42,9 @@ Project and task access is scoped by active workplace membership, role, and assi
 
 ## See the workflow
 
-[![Watch the Bells role workflow](docs/media/bells-workflow-poster.png)](docs/media/bells-workflow.mp4)
+[![Watch the Bells role workflow](docs/media/bells-workflow-poster.png)](https://bellsapp.site/#walkthrough)
+
+[Watch in the website player](https://bellsapp.site/#walkthrough) · [Open the MP4 directly](https://bellsapp.site/media/bells-workflow-v5.mp4)
 
 The 60-second walkthrough uses the actual application with a fictional sample workplace: one project manager, two team leads, and five contributors. It follows invitations, task assignment, both revision cycles, and completion updates.
 

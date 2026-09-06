@@ -39,6 +39,17 @@
 .bells-landing-secondary { display: inline-flex; gap: 13px; align-items: center; font-size: 13px; color: #234d82; padding: 10px 0; }
 .bells-landing-secondary:hover { color: #0c4dab; }
 .bells-landing-demo-note { display: flex; align-items: center; justify-content: center; gap: 6px; color: #60718a; font-size: 10px; letter-spacing: .01em; margin: 14px 0 0; }
+.bells-landing-walkthrough { max-width: 1280px; padding: 26px 48px 52px; margin: 0 auto; scroll-margin-top: 28px; }
+.bells-walkthrough-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 36px; margin-bottom: 24px; }
+.bells-walkthrough-heading .bells-landing-eyebrow { justify-content: flex-start; font-size: 10px; }
+.bells-walkthrough-heading h2 { font-size: 36px; font-weight: 500; letter-spacing: -.05em; line-height: 1.15; margin: 13px 0 0; }
+.bells-walkthrough-heading > p { max-width: 340px; color: #516276; font-size: 13px; line-height: 1.8; margin: 0; }
+.bells-walkthrough-video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #eef5fc; border: 1px solid #cad8e8; border-radius: 13px; box-shadow: 0 22px 60px -32px #17375c40; }
+.bells-walkthrough-video:focus-visible { outline: 2px solid #1667d9; outline-offset: 6px; }
+.bells-walkthrough-video::cue { font-family: 'Inter', sans-serif; font-size: 15px; background: #142c48e8; color: #fff; }
+.bells-walkthrough-caption { display: flex; justify-content: space-between; align-items: center; gap: 16px; color: #60718a; font-size: 11px; padding-top: 17px; }
+.bells-walkthrough-caption a { display: inline-flex; align-items: center; gap: 7px; flex-shrink: 0; color: #155fbf; }
+.bells-walkthrough-caption a:hover { color: #0c4dab; }
 .bells-landing-product { max-width: 1280px; padding: 26px 48px 0; margin: 0 auto; scroll-margin-top: 26px; }
 .bells-landing-section-caption { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 20px; }
 .bells-landing-section-caption h2 { font-size: 13px; font-weight: 450; color: #455b77; letter-spacing: -.015em; margin: 0; }
@@ -85,6 +96,12 @@
   .bells-landing-actions { gap: 23px; }
   .bells-landing-primary { gap: 16px; }
   .bells-landing-eyebrow { font-size: 9px; }
+  .bells-landing-walkthrough { padding: 0 24px 42px; scroll-margin-top: 20px; }
+  .bells-walkthrough-heading { flex-direction: column; align-items: flex-start; gap: 13px; margin-bottom: 20px; }
+  .bells-walkthrough-heading h2 { font-size: 30px; }
+  .bells-walkthrough-heading > p { font-size: 12px; max-width: 380px; }
+  .bells-walkthrough-video { border-radius: 8px; }
+  .bells-walkthrough-caption { font-size: 10px; align-items: flex-start; }
   .bells-landing-product { padding: 0 24px; }
   .bells-landing-section-caption { gap: 10px; margin-bottom: 14px; }
   .bells-landing-section-caption h2 { font-size: 11px; }

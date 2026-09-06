@@ -15,6 +15,8 @@ The backend checks used a separate local test harness and are not included as ru
 
 ## Public repository checks
 
+The landing-page walkthrough player was checked locally and in production in Chrome for 60-second 1080p playback, seeking to the ending, 25 English caption cues, and layouts at 1440, 390, and 320 px. It starts paused and defers video loading until playback. All 22 deployed assets matched the tested build; the MP4 serves as `video/mp4` with HTTP 206 range responses, and captions serve as `text/vtt`. The README walkthrough links point directly to `https://bellsapp.site/#walkthrough`; the former GitHub file-viewer destination could not preview the 7.13 MB video.
+
 The light-theme and video update was verified separately: the production build passed, all 19 deployed public assets matched that build, and Chrome checks confirmed the light default with a dark system preference, the manual theme toggle, and the guest workspace at desktop and 390 px mobile widths without horizontal overflow. The landing-page and README previews use the actual light guest dashboard.
 
 The revised 60-second, 1080p video decoded all 1,800 frames without errors. Active windows remain centered, a stationary composition check found no movement with the animated cursor disabled, and encoded frames were visually inspected for cursor placement and the rounded icon. These presentation changes did not modify the backend.
