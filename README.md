@@ -38,13 +38,15 @@ Project and task access is scoped by active workplace membership, role, and assi
 - **Persistent review history:** Submission attempts, reviewer actions, comments, and timestamps remain available throughout the review cycle.
 - **Progress tied to approval:** Approved tasks update completion metrics; a project requires a separate manager approval to be complete.
 - **Guest demo:** Explore a sample organization or create a local demo workspace without signing up. Demo changes stay in the current browser.
-- **Responsive interface:** Desktop and mobile layouts, light and dark workspace themes, and a public landing page with blue and yellow SlicedWaves.
+- **Responsive interface:** Desktop and mobile layouts with a light dashboard by default, an optional dark theme, and a public landing page with blue and yellow SlicedWaves.
 
 ## See the workflow
 
 [![Watch the Bells role workflow](docs/media/bells-workflow-poster.png)](docs/media/bells-workflow.mp4)
 
 The 60-second walkthrough uses the actual application with a fictional sample workplace: one project manager, two team leads, and five contributors. It follows invitations, task assignment, both revision cycles, and completion updates.
+
+The revised video uses centered light-mode screens, the rounded Bells icon, and an animated cursor with click highlights to make each step easier to follow.
 
 ```mermaid
 flowchart LR

@@ -113,7 +113,7 @@ export default function LandingPage() {
               <span className="bells-landing-preview-label">Workspace preview</span>
             </div>
             <img
-              src="/brand/bells-workspace-preview.png"
+              src="/brand/bells-workspace-preview-light.png"
               alt="Bells manager dashboard showing project totals, team progress, department performance, and contributions from Employee X, Employee Y, Employee Z, and You."
               width="1440"
               height="1050"

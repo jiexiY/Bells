@@ -15,6 +15,10 @@ The backend checks used a separate local test harness and are not included as ru
 
 ## Public repository checks
 
+The light-theme and video update was verified separately: the production build passed, all 19 deployed public assets matched that build, and Chrome checks confirmed the light default with a dark system preference, the manual theme toggle, and the guest workspace at desktop and 390 px mobile widths without horizontal overflow. The landing-page and README previews use the actual light guest dashboard.
+
+The revised 60-second, 1080p video decoded all 1,800 frames without errors. Active windows remain centered, a stationary composition check found no movement with the animated cursor disabled, and encoded frames were visually inspected for cursor placement and the rounded icon. These presentation changes did not modify the backend.
+
 The public export passed the following checks before publication:
 
 - Clean dependency installation using `npm ci`.

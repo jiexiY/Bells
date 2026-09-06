@@ -21,7 +21,7 @@ function ScrollToPageStart() {
 }
 
 const App = () => (
-  <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+  <ThemeProvider attribute="class" storageKey="bells-theme" defaultTheme="light" enableSystem={false}>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
