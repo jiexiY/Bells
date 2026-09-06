@@ -18,9 +18,11 @@
 .bells-landing-brand { display: inline-flex; align-items: center; gap: 10px; font-size: 26px; font-weight: 650; letter-spacing: -1px; }
 .bells-landing-brand img { border-radius: 10px; }
 .bells-landing-brand-dot { color: #c69b19; }
-.bells-landing-nav { display: flex; align-items: center; gap: 38px; font-size: 13px; }
+.bells-landing-nav { display: flex; align-items: center; gap: 24px; font-size: 13px; }
 .bells-landing-nav-overview { color: #516276; }
 .bells-landing-nav-overview:hover { color: #135bbf; }
+.bells-landing-github { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; flex-shrink: 0; border-radius: 50%; color: #152b47; transition: color .2s ease, background .2s ease; }
+.bells-landing-github:hover { color: #135bbf; background: #edf4fd; }
 .bells-landing-hero { position: relative; height: 600px; display: flex; align-items: center; justify-content: center; }
 .bells-landing-waves { position: absolute; top: 0; left: 0; width: 100%; height: 600px; background: radial-gradient(ellipse at 50% 40%, #e8f2ff 0, #fff9e6 45%, #ffffff 75%); }
 .bells-landing-hero-shade { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, #ffffff20 0%, transparent 25%, #ffffff15 60%, #ffffff 100%), radial-gradient(ellipse at center, #ffffff9c 0, #ffffff20 65%, #ffffff66 100%); }
@@ -74,7 +76,7 @@
   .bells-landing-header { height: 76px; padding: 0 24px; }
   .bells-landing-brand { font-size: 23px; }
   .bells-landing-brand img { width: 32px; height: 32px; }
-  .bells-landing-nav { gap: 22px; }
+  .bells-landing-nav { gap: 14px; }
   .bells-landing-nav-overview { font-size: 12px; padding: 10px 0; }
   .bells-landing-hero h1 { font-size: clamp(43px, 7.5vw, 58px); letter-spacing: -.055em; line-height: 1.09; margin-top: 25px; }
   .bells-landing-desktop-break { display: none; }

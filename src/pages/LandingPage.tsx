@@ -1,6 +1,6 @@
 import { Component, useSyncExternalStore, type ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { ArrowDown, ArrowRight, Check, CircleCheck, Layers3, ShieldCheck } from "lucide-react";
+import { ArrowDown, ArrowRight, Check, CircleCheck, Github, Layers3, ShieldCheck } from "lucide-react";
 import SlicedWaves from "@/components/SlicedWaves.jsx";
 import "./LandingPage.css";
 
@@ -82,6 +82,16 @@ export default function LandingPage() {
         </Link>
         <nav className="bells-landing-nav" aria-label="Main navigation">
           <a className="bells-landing-nav-overview" href="#workspace">For the workplace</a>
+          <a
+            className="bells-landing-github"
+            href="https://github.com/jiexiY/Bells"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Bells on GitHub (opens in a new tab)"
+            title="Bells on GitHub"
+          >
+            <Github size={22} strokeWidth={1.7} aria-hidden="true" />
+          </a>
         </nav>
       </header>
 
