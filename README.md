@@ -46,7 +46,7 @@ Project and task access is scoped by active workplace membership, role, and assi
 
 The 60-second walkthrough uses the actual application with a fictional sample workplace: one project manager, two team leads, and five contributors. It follows invitations, task assignment, both revision cycles, and completion updates.
 
-The revised video uses centered light-mode screens, the rounded Bells icon, and an animated cursor with click highlights to make each step easier to follow.
+The video uses enlarged, centered light-mode screens, layered depth, and an animated cursor with click highlights. Smooth transitions emphasize the active role in the three-dashboard comparison, and the closing call to action invites viewers to try the demo at bellsapp.site.
 
 ```mermaid
 flowchart LR

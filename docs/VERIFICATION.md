@@ -19,6 +19,8 @@ The light-theme and video update was verified separately: the production build p
 
 The revised 60-second, 1080p video decoded all 1,800 frames without errors. Active windows remain centered, a stationary composition check found no movement with the animated cursor disabled, and encoded frames were visually inspected for cursor placement and the rounded icon. These presentation changes did not modify the backend.
 
+The subsequent depth and motion revision enlarges the main showcase from a 640 px to a 780 px maximum height. Role panels interpolate between their normal and emphasized sizes, preserving their order and a 24 px gap. The video ends with “Try Bells now” and the demo destination. All 1,800 exported frames decoded without errors; geometry checks and visual inspection confirmed the centered framing, role transitions, click alignment, and closing call to action.
+
 The public export passed the following checks before publication:
 
 - Clean dependency installation using `npm ci`.
